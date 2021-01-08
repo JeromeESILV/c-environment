@@ -14,13 +14,13 @@ int main(int argc, char *argv[]){
 
 		argc = atoi(argv[1]);
 
-		for (int i = 0; i <= argc; i++) {
+		for (int i = 1; i <= argc; i++) {
 			printf("%d\n", i);
 		}
 		return 0;
 
 	}else	if(argc == 2){
-		argc = atoi(argv[1]);int i = 0;
+		argc = atoi(argv[1]);int i = 1;
 
 		if( isalpha(argv[1][0]) != 0 || argc == 0){
 			return 0;
@@ -36,7 +36,7 @@ int main(int argc, char *argv[]){
 
 	}else if(argc == 1){
 
-		for (int i = 0; i <= 10; i++) {
+		for (int i = 1; i <= 10; i++) {
 			printf("%d\n", i);
 		}
 		return 0;
